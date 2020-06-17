@@ -14,7 +14,8 @@
     // read user input
     const stringToRepeat = prompt('enter some text to repeat ...');
 
-    const repetitions = prompt('... and how many times to repeat it');
+    let repetitions = prompt('... and how many times to repeat it');
+    repetitions = Number(repetitions);
 
     // program logic
     let repeated = '';
